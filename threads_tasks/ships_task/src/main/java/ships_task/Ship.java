@@ -1,17 +1,20 @@
+package ships_task;
+
 import java.util.ArrayList;
 
 public class Ship extends Thread{
 
     private String name;
+    private static int number = 1;
     private ArrayList<Package> packages;
-    Harbour harbour;
+    private Harbour harbour;
 
-    public Ship(String name,Harbour harbour) {
-        this.name = name;
+    public Ship(Harbour harbour) {
+        this.name = "Ship "+number++;
         this.packages = new ArrayList<>();
-        int numberOfPackages = Util.randomize(1,4);
-        for (int i = 0; i < numberOfPackages; i++) {
-             packages.add(new Package());
+        int number = Util.randomize(1,4);
+        for (int i = 0; i < number; i++) {
+            this.packages.add(new Package());
         }
         this.harbour = harbour;
     }

@@ -1,26 +1,28 @@
+package ships_task;
+
 public class Crane extends Thread{
 
     private String name;
-    private Harbour harbour;
+    private static int number = 1;
     private int id;
+    private Harbour harbour;
 
-    public Crane(String name,Harbour harbour,int id) {
-        this.name = name;
+    public Crane(Harbour harbour) {
+        this.name = "Crane "+number;
+        this.id = number++;
         this.harbour = harbour;
-        this.id = id;
-    }
-
-    public String getCraneName(){
-        return this.name;
     }
 
     @Override
     public void run() {
-        while (true){
+        while (true) {
             this.harbour.unloadShips(this);
         }
     }
 
+    public String getCraneName(){
+        return name;
+    }
 
     public int getCraneId() {
         return id;
