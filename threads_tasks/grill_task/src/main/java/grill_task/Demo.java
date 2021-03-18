@@ -50,7 +50,7 @@ public class Demo {
       statistics.setDaemon(true);
       statistics.start();
 
-      Thread databaseSTats = new Thread(() -> {
+      Thread databaseStats = new Thread(() -> {
           while (true){
               try {
                   Thread.currentThread().sleep(30000);
@@ -67,8 +67,8 @@ public class Demo {
               }
           }
       });
-      databaseSTats.setDaemon(true);
-      databaseSTats.start();
+      databaseStats.setDaemon(true);
+      databaseStats.start();
 
     }
 }

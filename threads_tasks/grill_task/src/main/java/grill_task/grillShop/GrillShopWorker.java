@@ -12,7 +12,6 @@ public class GrillShopWorker extends Thread{
     public void run() {
         while (true){
             this.grillShop.takeOrder();
-
         }
     }
 }
