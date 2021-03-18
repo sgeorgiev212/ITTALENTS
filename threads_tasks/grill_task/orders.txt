@@ -1,0 +1,12 @@
+whole, steak, tomato, 5.7, 2021-03-16T14:36:45.103068300
+white, pleskavica, tomato, 4.2, 2021-03-16T14:36:45.161175400
+whole, meatball, liutenitsa, 3.5, 2021-03-16T14:36:45.163174200
+white, meatball, carrot, 2.7, 2021-03-16T14:36:45.163174200
+white, meatball, ruska, 3.05, 2021-03-16T14:36:45.164173400
+whole, pleskavica, ruska, 4.55, 2021-03-16T14:36:46.984317400
+whole, pleskavica, liutenitsa, 4.5, 2021-03-18T21:29:53.269085100
+whole, meatball, carrot, 3.2, 2021-03-18T21:30:06.175370200
+whole, pleskavica, tomato, 4.7, 2021-03-18T21:30:14.176131800
+whole, pleskavica, liutenitsa, 4.5, 2021-03-18T21:30:27.190799500
+white, steak, carrot, 4.7, 2021-03-18T21:30:27.192799300
+white, steak, carrot, 4.7, 2021-03-18T21:30:27.193798600
