@@ -8,9 +8,9 @@ public class DatabaseConnection {
 
     private static DatabaseConnection instance;
     private Connection conn;
-    private static final String url = "jdbc:mysql://84.238.145.199:7777/s12_test3";
-    private static final String username= "cadet";
-    private static final String password= "survivor2021";
+    private static final String url = "jdbc:mysql://localhost:3306/grill_orders";
+    private static final String username= "root";
+    private static final String password= "1234567";
 
     private DatabaseConnection(){
         try {
